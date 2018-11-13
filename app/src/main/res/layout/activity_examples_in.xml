@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="#D4EDF7"
+    android:id="@+id/list_item"
+    android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/en_word"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="english word"
+        android:textColor="@color/txtPresent"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"/>
+    <View
+        android:id="@+id/between"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="#34091C"/>
+    <TextView
+        android:id="@+id/ar_word"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="arabic word"
+        android:textColor="@color/txtPresent"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"/>
+</LinearLayout>

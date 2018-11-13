@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#25637c</color>
+    <color name="colorPrimaryDark">#347B98</color>
+    <color name="colorAccent">#25637c</color>
+
+    <color name="txtDown">#225B72</color>
+    <color name="txtPresent">#225B72</color>
+    <color name="txtPast">#225B72</color>
+    <color name="txtFuture">#225B72</color>
+    <color name="allTxt">#FCD74F</color>
+</resources>

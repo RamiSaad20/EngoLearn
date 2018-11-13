@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4EDF7"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/top_icons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:textColor="#34091C"
+            android:background="@drawable/edt_icons"
+            android:fontFamily="@font/ananda_use"
+            android:gravity="center"
+            android:text="ConTact Us"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:textColor="#34091C"
+            android:background="@drawable/edt_icons"
+            android:fontFamily="@font/ananda_use"
+            android:gravity="center"
+            android:text="About Us"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_icons">
+
+        <LinearLayout
+
+            android:id="@+id/group_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D4EDF7"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edt_presnt">
+
+                <TextView
+                    android:id="@+id/modare3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/presnt_s"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/allTxt"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edt_presnt">
+
+                <TextView
+                    android:id="@+id/mod_mostmr"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/presnt_c"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/allTxt"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edt_presnt">
+
+                <TextView
+                    android:id="@+id/mod_tam"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/presnt_t"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/allTxt"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edt_mady">
+
+                <TextView
+                    android:id="@+id/mady_basit"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/past_s"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/allTxt"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edt_mady">
+
+
+                <TextView
+                    android:id="@+id/mady_mostmr"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/past_c"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/allTxt"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edt_mady">
+
+                <TextView
+                    android:id="@+id/mady_tam"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/past_t"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/allTxt"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edt_future">
+
+                <TextView
+                    android:id="@+id/future_simple"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/future_s"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/allTxt"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edt_future">
+
+                <TextView
+                    android:id="@+id/future_cont"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/future_c"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/allTxt"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edt_future">
+
+                <TextView
+                    android:id="@+id/future_tam"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/future_t"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/allTxt"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.engolearn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.ca-app-pub-2905685190226847~4351934202"
+            android:value="[ca-app-pub-2905685190226847~4351934202]"/>
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PresentS"
+            android:label="@string/presnt_s"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PresentC"
+            android:label="@string/presnt_c"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PresentT"
+            android:label="@string/presnt_t"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PastS"
+            android:label="@string/past_s"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PastC"
+            android:label="@string/past_c"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PastT"
+            android:label="@string/past_t"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FutureS"
+            android:label="@string/future_s"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FutureC"
+            android:label="@string/future_c"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AboutUs"
+            android:label="About Us"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SavingWordsInPresentS"
+            android:label="@string/presnt_s"
+            android:parentActivityName=".PresentS" />
+        <activity
+            android:name=".SavingWordsInPresentC"
+            android:label="@string/presnt_c"
+            android:parentActivityName=".PresentC" />
+        <activity
+            android:name=".SavingWordsInPresentT"
+            android:label="@string/presnt_t"
+            android:parentActivityName=".PresentT" />
+        <activity
+            android:name=".SavingVerbsInPastS"
+            android:label="@string/past_s"
+            android:parentActivityName=".PastS" />
+        <activity
+            android:name=".FutureT"
+            android:label="@string/future_t"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TopPresntS"
+            android:label="@string/presnt_s"
+            android:parentActivityName=".PresentS" />
+
+        <activity android:name=".TopPresentC"
+            android:label="@string/presnt_c"
+            android:parentActivityName=".PresentC"/>
+        <activity android:name=".TopPresntT"
+            android:label="@string/presnt_t"
+            android:parentActivityName=".PresentT"/>
+        <activity android:name=".TopPastS"
+            android:label="@string/past_s"
+            android:parentActivityName=".PastS"/>
+        <activity android:name=".TopPastC"
+            android:label="@string/past_c"
+            android:parentActivityName=".PastC" />
+        <activity android:name=".TopPastT"
+            android:label="@string/past_t"
+            android:parentActivityName=".PastT"/>
+        <activity android:name=".TopFutureC"
+            android:label="@string/future_c"
+            android:parentActivityName=".FutureC"/>
+        <activity android:name=".TopFutureS"
+            android:label="@string/future_s"
+            android:parentActivityName=".FutureS"/>
+        <activity android:name=".TopFutureT"
+            android:label="@string/future_t"
+            android:parentActivityName=".FutureT"/>
+    </application>
+
+</manifest>
